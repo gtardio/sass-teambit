@@ -1,0 +1,331 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #58402c;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.containerMini {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #30488f;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+}
+
+header #wrapMenu {
+  display: flex;
+  height: 100%;
+  border-bottom: 1px solid grey;
+}
+
+header #wrapMenu #wrapLogo {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+header #wrapMenu #wrapNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+header #wrapMenu #wrapNav ul {
+  list-style-type: none;
+}
+
+header #wrapMenu #wrapNav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+header #wrapMenu #wrapNav ul li a:hover {
+  color: #30488f;
+}
+
+header #wrapMenu #wrapNav button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10px;
+  background-color: #fff;
+  color: #30488f;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  font-weight: bold;
+}
+
+header #wrapMenu #wrapNav button i {
+  margin-right: 10px;
+}
+
+header #wrapMenu #wrapNav button:hover {
+  background-color: #30488f;
+  color: #fff;
+}
+
+header #wrapMenu #wrapNav button:hover i {
+  color: #fff;
+}
+
+#first_section {
+  height: 700px;
+  width: 100%;
+}
+
+#first_section #wrapSectionUnoContent {
+  display: flex;
+}
+
+#first_section #wrapSectionUnoContent > div {
+  width: 50%;
+  height: 100%;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent {
+  margin-top: 70px;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText h2 {
+  font-size: 55px;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button {
+  background-color: #30488f;
+  color: #fff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button i {
+  color: #fff;
+  margin-right: 15px;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button:hover {
+  background-color: #233569;
+}
+
+#first_section #wrapSectionUnoContent #wrapleftContent #wrapleftContentText .wrapButton {
+  margin-top: 20px;
+}
+
+#first_section #wrapSectionUnoContent #rightContent {
+  margin-top: 70px;
+}
+
+#first_section #wrapSectionUnoContent #rightContent img {
+  max-width: 675px;
+  height: auto;
+}
+
+#second_section {
+  background-color: #ffe7d2;
+  height: 100%;
+  width: 100%;
+}
+
+#second_section .wrapTraditionalCard {
+  height: 450px;
+}
+
+#second_section .wrapTraditionalCard h2 {
+  font-size: 27px;
+  text-align: center;
+  padding: 100px 100px 80px;
+}
+
+#second_section .wrapTraditionalCard .wrapCard > div {
+  float: left;
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+#second_section .wrapTraditionalCard .wrapCard > div .cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+#second_section .wrapTraditionalCard .wrapCard > div .cardImg img {
+  max-width: 140px;
+}
+
+#second_section .wrapTraditionalCard .wrapCard > div .cardTitle {
+  text-align: center;
+  font-size: 14px;
+}
+
+#second_section .rabbitImgcontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+#second_section .rabbitImgcontainer img {
+  max-width: 250px;
+}
+
+#second_section .rabbitImgcontainer h4 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+#second_section .riga {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+#third_section {
+  width: 100%;
+  height: 100%;
+}
+
+#third_section .wrapContentGenerale {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+#third_section .wrapContentGenerale > div {
+  height: 500px;
+}
+
+#third_section .wrapContentGenerale .contentLeft {
+  width: 60%;
+}
+
+#third_section .wrapContentGenerale .contentLeft img {
+  max-width: 800px;
+}
+
+#third_section .wrapContentGenerale .contentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#third_section .wrapContentGenerale .contentRight h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+#third_section .wrapContentGenerale .contentRight p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#third_section .wrapContentGenerale .contentRight a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#third_section .wrapContentGenerale .contentRight a:hover {
+  color: #233569;
+}
+
+#third_section .wrapContentGenerale .contentRight a i {
+  color: #30488f;
+}
+
+#third_section .wrapContentGenerale .contentRight img {
+  max-width: 240px;
+}
+
+#third_section .wrapContentGeneraleSx {
+  display: flex;
+  display: flex;
+}
+
+#third_section .wrapContentGeneraleSx > div {
+  height: 500px;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 300px;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx h2 {
+  font-size: 25px;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx a:hover {
+  color: #233569;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx a i {
+  color: #30488f;
+}
+
+#third_section .wrapContentGeneraleSx .contentLeftSx img {
+  max-width: 240px;
+}
+
+#third_section .wrapContentGeneraleSx .contentRightDx {
+  width: 40%;
+}
+
+#third_section .wrapContentGeneraleSx .contentRightDx img {
+  max-width: 700px;
+}
